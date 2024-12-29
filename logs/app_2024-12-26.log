@@ -1,0 +1,1523 @@
+2024-12-26 06:10:48,074 - django.request - WARNING - Not Found: /
+2024-12-26 06:11:01,056 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:11:04,783 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:11:04,786 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:11:04,788 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:11:08,036 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:11:08,036 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:11:08,037 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:11:11,700 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:11:11,700 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:11:11,701 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:17:45,725 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:17:49,712 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:17:49,714 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:17:49,716 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:17:51,633 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:17:51,633 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:17:51,634 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:19:41,562 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:19:41,563 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:19:41,564 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:20:18,822 - django.request - WARNING - Method Not Allowed: /chat
+2024-12-26 06:20:56,491 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:20:57,570 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:20:58,209 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:20:58,689 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:21:58,258 - django.request - ERROR - Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 14, in index
+    return render(request, 'AI/index.html')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ashish/Downloads/Iffort 23/.iffort/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_knowledgebase' not found. 'upload_knowledgebase' is not a valid view function or pattern name.
+2024-12-26 06:22:50,365 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:22:54,211 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:22:57,282 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:22:57,282 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:22:57,283 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:22:59,000 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:22:59,000 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:22:59,001 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:24:02,306 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:06,951 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:24:06,952 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:24:06,953 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:24:43,703 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:43,821 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:44,086 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:44,180 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:44,331 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:44,511 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:24:47,768 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:24:47,768 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:24:47,769 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:24:49,717 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 06:25:45,662 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:25:45,663 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:25:45,664 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:29:17,685 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:29:17,686 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:29:17,687 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 06:30:11,585 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/ai/main.py changed, reloading.
+2024-12-26 06:30:56,508 - ai.main - ERROR - Error in process_file: name 'chroma' is not defined
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/main.py", line 126, in process_file
+    retriever = chroma.search()
+                ^^^^^^
+NameError: name 'chroma' is not defined
+2024-12-26 06:30:56,510 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/ashish/Downloads/Iffort 23/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-26 06:30:56,511 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 07:07:24,734 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/ai/main.py changed, reloading.
+2024-12-26 07:08:48,360 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/ai/main.py changed, reloading.
+2024-12-26 07:10:34,125 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/ai/main.py changed, reloading.
+2024-12-26 07:10:43,190 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 07:10:49,753 - django.request - WARNING - Not Found: /
+2024-12-26 07:10:55,714 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 07:11:00,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:11:01,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:11:33,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:11:34,003 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:11:35,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:12:03,151 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 07:12:12,583 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 07:12:56,628 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 07:13:00,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:01,314 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:02,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:02,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:03,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:04,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:16,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:17,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:18,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:26,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:27,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:28,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:42,833 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:43,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:44,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:55,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:13:55,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:13:57,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:14:17,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:14:18,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 07:14:22,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 07:17:04,246 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/Iffort/settings.py changed, reloading.
+2024-12-26 07:17:13,378 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 07:17:17,453 - django.utils.autoreload - INFO - /Users/ashish/Downloads/Iffort 23/Iffort/settings.py changed, reloading.
+2024-12-26 07:17:22,021 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:47:56,561 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:49:32,930 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:50:22,630 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:50:41,904 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:50:59,685 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:51:10,928 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:53:53,518 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 09:53:56,155 - django.request - WARNING - Not Found: /
+2024-12-26 09:53:56,673 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 09:54:02,100 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 09:54:15,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 09:54:16,112 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 09:54:37,760 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 09:54:38,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 09:54:39,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 09:55:48,078 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 10:21:19,009 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 10:26:43,533 - django.request - WARNING - Bad Request: /upload/
+2024-12-26 10:26:58,871 - django.request - WARNING - Bad Request: /upload/
+2024-12-26 10:27:21,508 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-26 10:27:28,931 - django.request - WARNING - Bad Request: /upload/
+2024-12-26 10:28:07,628 - django.request - ERROR - Internal Server Error: /up/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 212, in up
+    return render(request, 'AI/up.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2024-12-26 10:29:26,916 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 10:29:34,128 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 10:29:35,765 - ai.main - ERROR - Error in creating database: File not found: download (1).png
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: download (1).png
+2024-12-26 10:29:55,366 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-26 10:29:55,761 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-26 10:29:55,939 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-26 10:30:08,411 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 10:30:14,433 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:30:23,304 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-26 11:30:24,849 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-26 11:30:31,021 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-26 11:31:10,699 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:31:13,940 - django.request - ERROR - Internal Server Error: /chat
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 117, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 151, in chat_with_doc_route
+    logger.error(f"Error in chat_with_doc_route: {e}", exc_info=True)
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-12-26 11:31:17,452 - django.request - ERROR - Internal Server Error: /chat
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 117, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 151, in chat_with_doc_route
+    logger.error(f"Error in chat_with_doc_route: {e}", exc_info=True)
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-12-26 11:32:55,525 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:33:02,055 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:33:07,669 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:33:10,214 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:33:10,219 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:35:18,821 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:35:24,488 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:35:27,390 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:35:27,394 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:37:36,709 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:37:36,715 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:37:39,428 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:37:39,434 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:37:41,316 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:37:44,046 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:37:44,049 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:37:54,804 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:38:00,670 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:38:00,675 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:38:23,998 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:38:30,066 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:38:39,872 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:38:39,878 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:39:11,693 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:39:16,869 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:39:17,654 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:39:17,658 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:47:28,644 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:47:31,368 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:47:31,373 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:50:15,080 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:50:17,350 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:50:17,354 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:50:19,507 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:50:19,511 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:50:26,245 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 11:50:40,979 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:50:40,984 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:50:43,875 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 11:50:48,199 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 124, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:50:48,202 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:53:49,551 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:53:56,131 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:53:57,065 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 126, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:53:57,069 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:53:59,145 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:54:01,553 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 126, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:54:01,556 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:54:02,762 - ai.views - ERROR - Error in chat_with_doc_route: name 'session_id' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 126, in chat_with_doc_route
+    if not session_id:
+           ^^^^^^^^^^
+NameError: name 'session_id' is not defined. Did you mean: 'session_logs'?
+2024-12-26 11:54:02,765 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 11:55:30,807 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:55:37,279 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:55:38,109 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 11:55:41,149 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:55:49,413 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:55:51,115 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:56:50,251 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:57:34,549 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 11:58:12,790 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 11:58:20,081 - ai.views - DEBUG - Received data: {'message': 'hii hello'}
+2024-12-26 11:58:20,082 - ai.views - WARNING - Session ID is missing.
+2024-12-26 11:58:20,082 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:58:23,049 - ai.views - DEBUG - Received data: {'message': 'why'}
+2024-12-26 11:58:23,049 - ai.views - WARNING - Session ID is missing.
+2024-12-26 11:58:23,050 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:58:33,431 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:58:33,705 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:58:33,850 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 11:58:35,995 - ai.views - DEBUG - Received data: {'message': 'hii'}
+2024-12-26 11:58:35,996 - ai.views - WARNING - Session ID is missing.
+2024-12-26 11:58:35,997 - django.request - WARNING - Bad Request: /chat
+2024-12-26 11:58:42,482 - ai.views - DEBUG - Received data: {'message': 'hello'}
+2024-12-26 11:58:42,482 - ai.views - WARNING - Session ID is missing.
+2024-12-26 11:58:42,482 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:00:41,987 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:00:46,753 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:01:09,968 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:01:25,151 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:02:35,821 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:02:42,649 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:02:45,602 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:04:49,313 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:04:54,298 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:04:59,462 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:48,784 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:52,031 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:52,210 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:52,419 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:52,631 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:05:58,735 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:02,108 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:29,378 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:33,127 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:35,717 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:36,105 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:52,408 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:52,951 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:06:53,378 - django.request - WARNING - Not Found: /create-session/http://127.0.0.1:8000/create-session/
+2024-12-26 12:06:53,998 - django.request - WARNING - Not Found: /create-session/http://127.0.0.1:8000/create-session/http://127.0.0.1:8000/create-session/
+2024-12-26 12:07:01,621 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:07:05,739 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:07:09,869 - ai.views - DEBUG - Received data: {'message': 'wwg'}
+2024-12-26 12:07:09,869 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:07:09,869 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:07:14,589 - ai.views - DEBUG - Received data: {'message': 'we'}
+2024-12-26 12:07:14,589 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:07:14,589 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:07:42,910 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:07:43,380 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:08:05,106 - ai.views - DEBUG - Received data: {'message': 'his'}
+2024-12-26 12:08:05,107 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:08:05,108 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:08:06,523 - ai.views - DEBUG - Received data: {'message': 'hello'}
+2024-12-26 12:08:06,523 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:08:06,523 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:08:50,982 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:08:57,584 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:09:03,631 - ai.views - DEBUG - Received data: {'message': 'hhi'}
+2024-12-26 12:09:03,631 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:09:03,632 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:09:40,342 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:09:46,326 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:09:47,782 - ai.views - DEBUG - Received data: {'message': 'hiii'}
+2024-12-26 12:09:47,782 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:09:47,782 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:09:54,344 - ai.views - DEBUG - Received data: {'message': 'l;iyf;u'}
+2024-12-26 12:09:54,344 - ai.views - WARNING - Session ID is missing.
+2024-12-26 12:09:54,345 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:10:00,715 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:10:06,532 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:14:27,584 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:14:34,185 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:14:36,148 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:14:39,178 - ai.views - ERROR - Error in chat_with_doc_route: 'dict' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 142, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'invoke'
+2024-12-26 12:14:39,179 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 12:15:30,288 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:15:34,822 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:15:38,823 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:15:40,966 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:15:42,711 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:15:57,252 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:16:00,619 - ai.views - ERROR - Error in chat_with_doc_route: name 'process_file' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 129, in chat_with_doc_route
+    conversational_rag_chain = process_file()
+                               ^^^^^^^^^^^^
+NameError: name 'process_file' is not defined
+2024-12-26 12:16:00,625 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 12:16:02,245 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:16:05,498 - ai.views - ERROR - Error in chat_with_doc_route: name 'process_file' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 129, in chat_with_doc_route
+    conversational_rag_chain = process_file()
+                               ^^^^^^^^^^^^
+NameError: name 'process_file' is not defined
+2024-12-26 12:16:05,503 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 12:16:08,178 - ai.views - ERROR - Error in chat_with_doc_route: name 'process_file' is not defined
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 129, in chat_with_doc_route
+    conversational_rag_chain = process_file()
+                               ^^^^^^^^^^^^
+NameError: name 'process_file' is not defined
+2024-12-26 12:16:08,183 - django.request - ERROR - Internal Server Error: /chat
+2024-12-26 12:16:09,578 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:16:50,590 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:16:55,192 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:16:57,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:16:57,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:03,832 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:04,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:17:05,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:12,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:13,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:17:14,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:22,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:22,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:17:24,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:17:31,917 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:17:37,143 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:17:40,044 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:17:55,897 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:00,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:18:00,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:18:01,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:18:09,253 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:18:14,346 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:18,390 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:18:23,194 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:26,590 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:18:40,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:18:41,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:18:42,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:18:46,048 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:46,667 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:46,866 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:47,077 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:47,270 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:18:57,480 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:18:58,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:18:59,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:19:06,048 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:19:14,289 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:19:17,583 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:19:21,209 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:19:24,030 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:19:40,358 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:19:49,241 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:19:50,939 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:19:54,936 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:19:57,407 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:21:13,880 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:21:16,868 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:22:13,047 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:22:17,140 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:22:22,229 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-26 12:22:30,594 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:22:30,981 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:22:32,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:22:47,809 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:23:45,890 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:23:51,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:23:51,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:23:58,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:23:58,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:23:59,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:24:07,291 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:24:07,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:24:08,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:24:20,906 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 12:24:36,731 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 12:24:40,858 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 12:24:43,041 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:24:45,342 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:24:46,299 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:24:46,783 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:24:47,030 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:24:50,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:24:53,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:24:54,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:25,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:25,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:25:27,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:41,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:42,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:25:43,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:58,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:25:59,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:26:00,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:26:19,269 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:26:22,732 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:26:25,334 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:28:50,321 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:29:03,849 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:29:08,921 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:29:30,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:29:30,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:29:31,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:29:36,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:29:37,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:29:38,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:29:52,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:29:53,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:29:54,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:04,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:05,002 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:30:05,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:14,273 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:30:22,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:22,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:30:23,788 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:34,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:34,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:30:37,117 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:42,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:30:42,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:30:44,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:31:07,082 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:31:11,535 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:31:30,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:31:31,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:31:32,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:31:38,016 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:31:41,590 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:31:45,048 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:33:35,247 - django.request - WARNING - Not Found: /
+2024-12-26 12:33:35,506 - django.request - WARNING - Not Found: /apple-touch-icon-precomposed.png
+2024-12-26 12:33:35,518 - django.request - WARNING - Not Found: /apple-touch-icon.png
+2024-12-26 12:33:35,533 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:33:35,554 - django.request - WARNING - Not Found: /apple-touch-icon-precomposed.png
+2024-12-26 12:33:35,591 - django.request - WARNING - Not Found: /apple-touch-icon.png
+2024-12-26 12:33:35,617 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:33:35,686 - django.request - WARNING - Not Found: /
+2024-12-26 12:33:35,726 - django.request - WARNING - Not Found: /apple-touch-icon-precomposed.png
+2024-12-26 12:33:35,744 - django.request - WARNING - Not Found: /apple-touch-icon.png
+2024-12-26 12:33:35,759 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:33:35,774 - django.request - WARNING - Not Found: /apple-touch-icon-precomposed.png
+2024-12-26 12:33:35,785 - django.request - WARNING - Not Found: /apple-touch-icon.png
+2024-12-26 12:33:35,797 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:33:42,146 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:33:43,104 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 12:33:47,100 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:34:56,323 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:35:57,721 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:36:16,135 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:36:26,527 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:43:46,724 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 12:43:54,234 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:43:59,082 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:44:24,534 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:46:34,087 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:46:40,645 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:46:44,332 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:46:48,065 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:46:50,784 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:46:58,507 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 12:47:02,719 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:47:06,618 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:47:09,988 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:47:13,310 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:47:18,473 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:48:37,649 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 12:48:43,064 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:48:49,566 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 12:48:54,345 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:49:49,965 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 12:49:54,794 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 12:49:57,772 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:49:59,943 - django.request - WARNING - Bad Request: /chat
+2024-12-26 12:50:06,802 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 12:50:32,039 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 12:50:35,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:50:36,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:50:45,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:50:46,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:50:47,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:50:57,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:50:58,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 12:50:59,654 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 12:57:54,165 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/models.py changed, reloading.
+2024-12-26 12:58:00,718 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:07:58,059 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-26 13:08:03,255 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:08:25,027 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:08:36,573 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:08:52,009 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:09:06,210 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:09:16,894 - django.request - WARNING - Not Found: /
+2024-12-26 13:09:33,051 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:10:03,977 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/admin.py changed, reloading.
+2024-12-26 13:10:09,958 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:11:58,072 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:12:02,307 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:12:04,790 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:12:09,263 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:12:14,401 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:12:15,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:26,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:27,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:12:27,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:34,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:35,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:12:36,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:41,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:12:42,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:12:43,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:18:04,756 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:18:11,867 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:19:03,849 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'conversation' not found. 'conversation' is not a valid view function or pattern name.
+2024-12-26 13:19:28,333 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_conversations' with no arguments not found. 1 pattern(s) tried: ['get_conversations/(?P<session_id>[^/]+)/\\Z']
+2024-12-26 13:20:24,511 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:20:29,705 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:20:31,079 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_conversations' with no arguments not found. 1 pattern(s) tried: ['get_conversations/(?P<session_id>[^/]+)/\\Z']
+2024-12-26 13:22:19,183 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-26 13:22:23,257 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:22:55,296 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-26 13:23:01,830 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:25:15,566 - django.security.csrf - WARNING - Forbidden (CSRF token from POST incorrect.): /admin/
+2024-12-26 13:25:20,489 - django.security.csrf - WARNING - Forbidden (CSRF token from POST incorrect.): /admin/
+2024-12-26 13:25:29,492 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'conversations' not found. 'conversations' is not a valid view function or pattern name.
+2024-12-26 13:25:41,115 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-26 13:25:47,803 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:25:49,980 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'conversations' not found. 'conversations' is not a valid view function or pattern name.
+2024-12-26 13:25:50,933 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'conversations' not found. 'conversations' is not a valid view function or pattern name.
+2024-12-26 13:26:09,024 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-26 13:26:15,226 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:26:17,146 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view_session' with arguments '('',)' not found. 1 pattern(s) tried: ['view_session/(?P<session_id>[^/]+)/\\Z']
+2024-12-26 13:26:18,806 - django.request - ERROR - Internal Server Error: /view-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 18, in view_chat_sessions
+    return render(request, 'AI/view_sessions.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view_session' with arguments '('',)' not found. 1 pattern(s) tried: ['view_session/(?P<session_id>[^/]+)/\\Z']
+2024-12-26 13:29:51,803 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:29:56,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:29:57,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:30:07,196 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:30:07,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:30:08,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:30:54,019 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-26 13:31:00,210 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:31:49,087 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-26 13:31:51,575 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:31:56,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:31:56,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:32,749 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:32:41,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:42,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:32:43,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:43,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:44,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:32:45,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:54,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:32:54,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:32:55,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:10,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:33:10,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:17,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:17,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:33:18,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:26,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:27,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:33:28,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:32,415 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:33:42,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:43,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:33:44,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:57,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:33:57,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:33:58,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:15,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:16,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:34:17,214 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:29,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:30,314 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:34:31,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:34,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:35,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:34:36,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:34:45,495 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:34:48,906 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:37:29,017 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:37:34,989 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:37:40,435 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:37:44,234 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:37:47,661 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:37:53,125 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:37:55,575 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:37:58,542 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:40:04,246 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:40:08,676 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:40:22,084 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:40:26,709 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:40:29,777 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:40:34,180 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:40:52,775 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:41:31,190 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:41:34,258 - django.request - WARNING - Not Found: /
+2024-12-26 13:41:39,330 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:41:42,056 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:41:49,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:41:50,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:42:16,812 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:42:17,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:42:18,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:42:22,706 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:42:42,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:42:43,844 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:43:02,877 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:43:05,855 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:43:09,111 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:43:54,128 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-26 13:43:58,506 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-26 13:44:05,884 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:44:09,264 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:44:12,897 - django.request - WARNING - Bad Request: /chat
+2024-12-26 13:46:00,457 - django.request - WARNING - Not Found: /capture-session/
+2024-12-26 13:46:00,607 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-26 13:46:04,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-26 13:46:05,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-26 13:47:16,085 - django.request - WARNING - Bad Request: /chat

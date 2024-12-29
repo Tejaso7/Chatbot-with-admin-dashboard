@@ -1,0 +1,267 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Iffort Dashboard{% endblock %}</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        /* General Styling */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            background-color: #2C3E50; /* Dark Blue-Gray */
+            color: #BDC3C7; /* Light Gray */
+            height: 100vh;
+            position: fixed;
+            width: 220px;
+            transition: all 0.3s;
+            top: 60px; /* Offset for the header */
+        }
+        .sidebar h5 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #34495E; /* Muted Blue-Gray */
+            padding-bottom: 10px;
+        }
+        .sidebar a {
+            color: #BDC3C7; /* Light Gray */
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            transition: all 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #34495E; /* Muted Blue-Gray */
+            color: #FFFFFF; /* White */
+            border-radius: 4px;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #34495E; /* Muted Blue-Gray */
+            color: #ECF0F1; /* Off-White */
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;  /* Ensure the header stays on top */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            height: 55px;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+            background-color: #F4F6F7; /* Very Light Gray */
+            flex: 1;
+            margin-top: 60px;  /* Adjust for the fixed header */
+        }
+
+        /* Footer Styling */
+        .footer {
+            margin-left: 220px;
+            background-color: #2C3E50; /* Dark Blue-Gray */
+            color: #ECF0F1; /* Off-White */
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Button Styling */
+        .btn-outline-light {
+            border-color: #E74C3C; /* Vibrant Red */
+            color: #E74C3C; /* Vibrant Red */
+        }
+        .btn-outline-light:hover {
+            background-color: #E74C3C; /* Vibrant Red */
+            color: #FFFFFF; /* White */
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                top: 0;  /* Remove top offset on small screens */
+            }
+            .header, .footer, .main-content {
+                margin-left: 0;
+            }
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        /* General Dashboard Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Roboto', Arial, sans-serif; /* Clean and modern font */
+}
+
+/* Table Styling */
+.table {
+    margin-bottom: 0;
+    border: 1px solid #dee2e6;
+}
+
+.table thead {
+    background-color: #343a40; /* Dark header for tables */
+    color: white;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6; /* Subtle borders */
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Empty State Styling */
+.table .text-muted {
+    font-style: italic;
+    color: #6c757d; /* Muted gray */
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+    color: #007bff; /* Bootstrap primary color */
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    color: #0056b3;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+/* Container and Headings */
+.container h1 {
+    font-weight: 700;
+    color: #343a40; /* Dark gray for title */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive Table */
+.table-responsive {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Mobile Pagination Fix */
+@media (max-width: 576px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    .pagination .page-item {
+        margin-bottom: 0.5rem;
+    }
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="d-flex align-items-center">
+                {% comment %} <img src="https://cdn.prod.website-files.com/61239e7ad461c031e03733ce/66c6ee31c024a182743c8af2_Untitled%20(100%20x%2060%20px).svg" alt="Logo" class="me-2"> {% endcomment %}
+        <img src="https://cdn.prod.website-files.com/61239e7ad461c031e03733ce/66c6ee31c024a182743c8af2_Untitled%20(100%20x%2060%20px).svg" alt="Logo" class="logo">
+                 
+                {% comment %} <h3 class="mb-0">Dashboard</h3> {% endcomment %}
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="me-3">Hello, <strong>{{ user.username|default:"User"|capfirst }}</strong></span>
+                <a href="{% url 'logout' %}" class="btn btn-outline-light btn-sm">Logout</a>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <nav class="sidebar d-flex flex-column p-3">
+            <a href="{% url 'index' %}" class="sidebar-link mb-3">
+                <i class="bi bi-house-door-fill"></i> Home
+            </a>
+            <a href="{% url 'up' %}" class="sidebar-link mb-3">
+                <i class="bi bi-house-door-fill"></i> Upload Knowledgebase
+            </a>       
+            <a href="{% url 'view_chat_sessions' %}" class="sidebar-link mb-3">
+                <i class="bi bi-chat-square-text-fill"></i> View Chat Sessions
+            </a>
+            <div class="text-center mt-4">
+                <a href="{% url 'change_password' %}" class="sidebar-link">
+                    <i class="bi bi-lock-fill"></i> Change Password
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-block">
+                {% block content %}
+                <!-- Content will be injected here -->
+                {% endblock %}
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Powered by <strong>Iffort</strong>. &copy; 2024 All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const uploadForm = document.getElementById("uploadForm");
+            const loadingSpinner = document.getElementById("loadingSpinner");
+    
+            if (uploadForm) {
+                uploadForm.addEventListener("submit", function () {
+                    // Show the spinner
+                    loadingSpinner.classList.remove("d-none");
+    
+                    // Disable the submit button to prevent multiple submissions
+                    const submitButton = uploadForm.querySelector("button[type='submit']");
+                    if (submitButton) {
+                        submitButton.disabled = true;
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

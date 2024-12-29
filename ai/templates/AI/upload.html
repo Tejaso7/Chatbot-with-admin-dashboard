@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}Upload Knowledgebase{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <h4 class="mb-4 text-primary">Upload Knowledgebase</h4>
+
+    <div id="loadingSpinner" class="d-none text-center mb-3">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2">Uploading file... Please wait.</p>
+    </div>
+
+    <!-- Alert if no knowledge base exists -->
+    {% if not knowledgebase_exists %}
+    <div class="alert alert-warning d-flex align-items-center" role="alert">
+        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+        No knowledge base uploaded yet. Start uploading your knowledge base now!
+    </div>
+    <form id="uploadForm" method="post" enctype="multipart/form-data" class="border rounded p-4 bg-light shadow-sm">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="fileInput" class="form-label">Select File:</label>
+            <input type="file" class="form-control" id="fileInput" name="knowledgebase_file" required>
+        </div>
+        <div class="mb-3">
+            <label for="labelInput" class="form-label">Label:</label>
+            <input type="text" class="form-control" id="labelInput" name="label" placeholder="Enter file label" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Upload</button>
+    </form>
+    {% else %}
+    <!-- Display details if knowledge base exists -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <i class="bi bi-database-fill"></i> Knowledge Base Details
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <p><strong>📂 Files Uploaded:</strong> {{ file_count }} file(s)</p>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="mb-3">
+                <h5 class="text-secondary">Manage Files</h5>
+                <form method="post" enctype="multipart/form-data" class="d-flex align-items-center gap-2">
+                    {% csrf_token %}
+                    <input type="file" class="form-control" id="updateFile" name="update_file" required>
+                    <button type="submit" class="btn btn-success btn-sm">
+                        <i class="bi bi-arrow-repeat"></i> Add to File
+                    </button>
+                </form>
+            </div>
+
+            <hr>
+
+            <!-- List of uploaded files -->
+            <h5 class="text-secondary">Uploaded Files</h5>
+            <ul class="list-group mb-4">
+                {% for file in uploaded_files %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ file }}</strong><br>
+                        <span>Label: {{ form.label }}</span><br>
+                        <span>Updated by: {{ form.User }}</span>
+                    </div>
+                    <form method="post" action="{% url 'delete_file' file %}">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash3"></i> Delete
+                        </button>
+                    </form>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <!-- Clear Database -->
+            <div class="text-center">
+                <h5 class="text-danger">Clear Database</h5>
+                <form method="post" action="{% url 'remove_knowledgebase' %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        <i class="bi bi-trash3"></i> Remove All
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

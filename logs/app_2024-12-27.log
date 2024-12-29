@@ -1,0 +1,640 @@
+2024-12-27 05:49:21,632 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 05:49:41,672 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,687 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,701 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,714 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,726 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,741 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:41,778 - django.request - WARNING - Not Found: /
+2024-12-27 05:49:43,171 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-27 05:49:43,183 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-27 05:49:43,268 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-27 05:51:46,914 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-27 05:51:53,471 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 05:52:09,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 05:52:10,750 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:52:39,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:52:40,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 05:52:41,094 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:53:06,022 - django.request - WARNING - Not Found: /favicon.ico
+2024-12-27 05:53:12,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 05:53:13,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:53:42,268 - django.request - WARNING - Bad Request: /chat
+2024-12-27 05:55:56,867 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-27 05:56:09,107 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 05:56:09,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:56:20,567 - django.request - WARNING - Bad Request: /chat
+2024-12-27 05:56:28,008 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 05:56:28,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 05:56:37,162 - django.request - WARNING - Bad Request: /chat
+2024-12-27 05:56:45,150 - django.request - WARNING - Bad Request: /chat
+2024-12-27 06:00:48,856 - django.request - WARNING - Bad Request: /chat
+2024-12-27 06:00:56,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:00:57,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:00:57,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:19,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:19,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:01:20,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:27,236 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:27,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:01:28,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:36,409 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:37,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:01:38,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:55,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:55,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:01:56,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:57,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:01:57,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:01:58,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:03,189 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:03,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:04,762 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:09,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:09,807 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:10,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:16,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:17,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:18,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:33,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:34,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:35,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:35,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:36,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:37,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:40,429 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-27 06:02:42,456 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /clear_chat
+2024-12-27 06:02:54,099 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:02:54,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:02:55,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:31:34,944 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:31:35,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:31:36,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:31:42,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 06:31:42,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 06:31:43,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 09:21:16,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 09:21:16,992 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 09:21:17,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 09:21:22,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 09:21:23,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 09:21:24,425 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 09:22:26,933 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 09:22:41,265 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 09:22:53,870 - django.security.csrf - WARNING - Forbidden (CSRF token from POST incorrect.): /admin/
+2024-12-27 09:22:58,764 - django.security.csrf - WARNING - Forbidden (CSRF token from POST incorrect.): /admin/
+2024-12-27 09:23:04,641 - django.security.csrf - WARNING - Forbidden (CSRF token from POST incorrect.): /admin/
+2024-12-27 09:23:14,849 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 09:27:52,795 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/Iffort/settings.py changed, reloading.
+2024-12-27 09:27:59,510 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 09:28:22,864 - django.request - WARNING - Bad Request: /chat
+2024-12-27 09:28:28,494 - django.request - WARNING - Bad Request: /chat
+2024-12-27 09:43:39,081 - django.request - WARNING - Bad Request: /chat
+2024-12-27 10:06:09,060 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 10:06:23,200 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 10:07:59,525 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 10:08:05,953 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:08:08,047 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 10:08:12,729 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:09:57,009 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/models.py changed, reloading.
+2024-12-27 10:10:02,192 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:22:53,052 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 10:22:58,829 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:24:11,109 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-27 10:24:15,785 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:26:35,371 - django.request - ERROR - Internal Server Error: /delete-sessions/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 318, in delete_sessions
+    return redirect('session_logs')  # Replace with your actual session logs URL
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'session_logs' not found. 'session_logs' is not a valid view function or pattern name.
+2024-12-27 10:28:46,123 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 10:28:51,388 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:29:07,918 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:29:29,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 10:29:30,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:29:37,719 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:29:41,483 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:29:42,283 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:29:46,845 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:29:58,566 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 10:32:39,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 10:32:40,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:46:27,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:46:28,419 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 10:46:29,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:48:20,923 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 10:48:27,919 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 10:48:42,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 10:48:43,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:48:48,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 10:48:51,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 10:48:52,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 11:12:30,915 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:12:38,936 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:13:12,565 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:17:18,274 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:17:22,513 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:17:47,157 - django.request - ERROR - Internal Server Error: /up/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py", line 76, in up
+    return render(request, 'AI/up.html', {'message': message, 'files': files})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 962, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/iffortenv/lib/python3.12/site-packages/django/template/base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2024-12-27 11:19:30,612 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:19:36,756 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:20:56,767 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:21:01,127 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:21:22,233 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:21:26,380 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:26:19,513 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:26:23,914 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:26:32,048 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:26:36,662 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:27:42,316 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:27:47,418 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:27:58,386 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:28:29,251 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:28:31,066 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:28:31,276 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:28:31,484 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:28:31,642 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:29:07,635 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:29:12,891 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:29:14,667 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:29:31,066 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:29:35,526 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:29:41,331 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:31:54,925 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:32:47,009 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 11:34:01,892 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:34:08,368 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:35:28,003 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:35:34,058 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:37:49,793 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 11:37:57,981 - ai.main - ERROR - Error in creating database: File not found: Fitze_vZ5tUgS.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_vZ5tUgS.txt
+2024-12-27 11:38:38,461 - ai.main - ERROR - Error in creating database: File not found: Fitze_G0GKwjX.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_G0GKwjX.txt
+2024-12-27 11:39:33,293 - ai.main - ERROR - Error in creating database: File not found: Fitze_QWFf3iT.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_QWFf3iT.txt
+2024-12-27 11:39:52,941 - ai.main - ERROR - Error in creating database: File not found: Fitze_qpgfemY.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_qpgfemY.txt
+2024-12-27 11:39:57,814 - ai.main - ERROR - Error in creating database: File not found: Fitze_iEh3Y49.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_iEh3Y49.txt
+2024-12-27 11:42:13,116 - ai.main - ERROR - Error in creating database: File not found: Fitze_wKrGbkX.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_wKrGbkX.txt
+2024-12-27 11:42:21,782 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery.pdf
+2024-12-27 11:42:30,286 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:42:37,353 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery_Oqp5y1W.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery_Oqp5y1W.pdf
+2024-12-27 11:42:45,433 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery_dApogYb.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery_dApogYb.pdf
+2024-12-27 11:44:57,874 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery_RaG7Zq6.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery_RaG7Zq6.pdf
+2024-12-27 11:48:49,421 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:48:56,316 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:49:10,977 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:49:17,308 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:49:55,546 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery.pdf
+2024-12-27 11:49:57,262 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:49:58,156 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:50:05,964 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 11:50:12,404 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery_pRXP7kI.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery_pRXP7kI.pdf
+2024-12-27 11:51:37,495 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:51:43,293 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:52:56,145 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:56,931 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:57,140 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:57,380 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:57,916 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:58,116 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:58,285 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:58,475 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:58,724 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:52:58,883 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:53:00,291 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:53:00,483 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:53:00,661 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:54:53,446 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 11:54:59,753 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 11:55:05,517 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery.pdf
+2024-12-27 11:55:10,474 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 11:55:12,440 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:13,006 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:13,205 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:14,214 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:14,404 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:15,323 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:21,307 - ai.main - ERROR - Error in creating database: File not found: Fitze_iKJlIdW.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_iKJlIdW.txt
+2024-12-27 11:55:26,432 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:26,964 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:55:27,157 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /list_files/
+2024-12-27 11:57:06,331 - ai.main - ERROR - Error in creating database: File not found: Fitze_UXt8HZR.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_UXt8HZR.txt
+2024-12-27 11:57:13,445 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 11:57:23,852 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 11:58:11,352 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 11:58:28,827 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 12:02:47,810 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 12:04:13,596 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 12:04:14,800 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 12:04:18,669 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_iKJlIdW.txt', 'fitzeQuery.pdf', 'Fitze_UXt8HZR.txt']
+2024-12-27 12:04:29,406 - ai.views - INFO - Files in directory: []
+2024-12-27 12:04:44,069 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 12:04:50,594 - ai.views - INFO - Files in directory: ['Fitze.txt']
+2024-12-27 12:05:03,289 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 12:05:08,315 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 12:05:11,104 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 12:05:12,554 - ai.views - INFO - Files in directory: ['Fitze.txt']
+2024-12-27 12:05:18,716 - ai.main - ERROR - Error in creating database: File not found: fitzeQuery.pdf
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: fitzeQuery.pdf
+2024-12-27 12:05:20,456 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf']
+2024-12-27 12:06:18,207 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf']
+2024-12-27 12:06:25,586 - django.request - WARNING - Bad Request: /upload/
+2024-12-27 12:06:37,982 - ai.main - ERROR - Error in creating database: File not found: Fitze_yOQ1egE.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_yOQ1egE.txt
+2024-12-27 12:06:39,105 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:06:41,113 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:06:42,337 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:06:44,346 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:06:45,968 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:00,399 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:01,757 - ai.views - INFO - Files in directory: ['Fitze.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:14,940 - ai.main - ERROR - Error in creating database: File not found: Fitze_Av45Ahx.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_Av45Ahx.txt
+2024-12-27 12:08:18,391 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:46,807 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:48,421 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:49,062 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:49,323 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:49,535 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:49,758 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_Av45Ahx.txt', 'fitzeQuery.pdf', 'Fitze_yOQ1egE.txt']
+2024-12-27 12:08:59,644 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:01,886 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:03,246 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:03,710 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:03,925 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:04,131 - ai.views - INFO - Files in directory: []
+2024-12-27 12:09:04,334 - ai.views - INFO - Files in directory: []
+2024-12-27 12:10:41,030 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:10:47,749 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:11:59,954 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:12:05,293 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:12:09,230 - ai.views - INFO - Files in directory: []
+2024-12-27 12:13:35,743 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:13:42,148 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:13:58,156 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:14:05,100 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:15:13,671 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:15:19,893 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:15:32,242 - ai.views - INFO - Files in directory: []
+2024-12-27 12:15:37,475 - ai.views - INFO - Files in directory: []
+2024-12-27 12:15:44,932 - ai.views - INFO - Files in directory: []
+2024-12-27 12:15:51,609 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 12:15:55,628 - ai.views - INFO - Files in directory: ['Fitze.txt']
+2024-12-27 12:20:17,997 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:20:24,317 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:21:02,827 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:21:08,910 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:21:58,929 - ai.views - INFO - Files in directory: []
+2024-12-27 12:22:05,374 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 12:22:09,525 - ai.views - INFO - Files in directory: ['Fitze.txt']
+2024-12-27 12:26:34,680 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:26:40,967 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:27:56,220 - django.request - ERROR - Internal Server Error: /list_files/
+2024-12-27 12:28:56,909 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:29:03,589 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:29:19,181 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-27 12:29:24,602 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:29:37,268 - ai.main - ERROR - Error in creating database: File not found: Fitze_uGrgtdd.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_uGrgtdd.txt
+2024-12-27 12:29:45,731 - ai.main - ERROR - Error in creating database: File not found: Fitze_d7ejaOH.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_d7ejaOH.txt
+2024-12-27 12:29:52,109 - ai.main - ERROR - Error in creating database: File not found: Fitze_dwYg4r6.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_dwYg4r6.txt
+2024-12-27 12:29:55,616 - ai.main - ERROR - Error in creating database: File not found: Fitze_3UK1cJK.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_3UK1cJK.txt
+2024-12-27 12:30:07,759 - ai.main - ERROR - Error in creating database: File not found: Fitze_s1FGMaK.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_s1FGMaK.txt
+2024-12-27 12:30:33,052 - ai.main - ERROR - Error in creating database: File not found: Fitze_8j90pAj.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_8j90pAj.txt
+2024-12-27 12:30:39,880 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/urls.py changed, reloading.
+2024-12-27 12:30:46,503 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:30:58,567 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/views.py changed, reloading.
+2024-12-27 12:31:05,190 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-27 12:31:17,565 - ai.main - ERROR - Error in creating database: File not found: Fitze_CpiDGKt.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze_CpiDGKt.txt
+2024-12-27 12:31:19,487 - ai.views - INFO - Files in directory: ['Fitze.txt', 'Fitze_dwYg4r6.txt', 'Fitze_8j90pAj.txt', 'Fitze_s1FGMaK.txt', 'Fitze_d7ejaOH.txt', 'Fitze_3UK1cJK.txt', 'Fitze_CpiDGKt.txt', 'Fitze_uGrgtdd.txt']
+2024-12-27 12:31:48,135 - ai.main - ERROR - Error in creating database: File not found: Fitze.txt
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/main.py", line 64, in create_db
+    content=FileLoader.load_file(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/Iffort d23/ai/modules/file_loaders.py", line 33, in load_file
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: Fitze.txt
+2024-12-27 12:32:04,143 - ai.views - INFO - Files in directory: ['Fitze.txt']
+2024-12-27 12:32:11,119 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 12:32:14,708 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 12:32:17,754 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 12:32:20,172 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-27 12:32:39,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 12:32:40,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 12:32:49,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-27 12:32:50,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-27 12:32:51,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

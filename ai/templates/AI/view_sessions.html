@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid mt-4">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold">View Sessions</h2>
+        
+    </div>
+
+    <div class="row">
+        <!-- Left Column: Conversation Logs -->
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white d-flex align-items-center">
+                    <i class="bi bi-chat-left-text me-2"></i>
+                    <span class="fw-semibold">Conversations</span>
+                </div>
+                <div class="card-body" style="max-height: 400px; overflow-y: auto;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-medium">Conversation #1</span>
+                            <button class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-eye"></i> View
+                            </button>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-medium">Conversation #2</span>
+                            <button class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-eye"></i> View
+                            </button>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-medium">Conversation #3</span>
+                            <button class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-eye"></i> View
+                            </button>
+                        </li>
+                        <div class="card-body d-grid gap-3">
+                            <a href="{% url 'log' %}" class="btn btn-outline-primary btn-lg">
+                                <i class="bi bi-arrow-clockwise"></i> See Conversations
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Action Buttons -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white d-flex align-items-center">
+                    <i class="bi bi-tools me-2"></i>
+                    <span class="fw-semibold">Logs</span>
+                </div>
+                <div class="card-body d-grid gap-3">
+                    <a href="{% url 'log' %}" class="btn btn-outline-primary btn-lg">
+                        <i class="bi bi-arrow-clockwise"></i> See Logs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

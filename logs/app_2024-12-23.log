@@ -1,0 +1,246 @@
+2024-12-23 07:55:40,304 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py changed, reloading.
+2024-12-23 09:24:15,837 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/modules/create_vectors.py changed, reloading.
+2024-12-23 11:07:13,355 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py changed, reloading.
+2024-12-23 11:07:25,537 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:07:26,162 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:07:26,378 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:07:28,928 - django.request - WARNING - Not Found: /chat
+2024-12-23 11:07:43,043 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/urls.py changed, reloading.
+2024-12-23 11:07:49,292 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /chat
+2024-12-23 11:07:59,508 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /chat
+2024-12-23 11:09:17,560 - django.security.csrf - WARNING - Forbidden (CSRF token missing.): /chat
+2024-12-23 11:09:21,829 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:09:25,005 - ai.views - ERROR - Error in chat_with_doc_route: 'WSGIRequest' object has no attribute 'json'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 186, in chat_with_doc_route
+    data = request.json()
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'json'
+2024-12-23 11:09:25,055 - django.request - ERROR - Internal Server Error: /chat
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 186, in chat_with_doc_route
+    data = request.json()
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 204, in chat_with_doc_route
+    "history": history + [("You", message), ("Guru JI", "An error occurred while processing your request.")]
+               ^^^^^^^
+UnboundLocalError: cannot access local variable 'history' where it is not associated with a value
+2024-12-23 11:11:02,369 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py changed, reloading.
+2024-12-23 11:11:11,989 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:11:14,777 - ai.main - ERROR - Error in process_file: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py", line 120, in process_file
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-23 11:11:14,782 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-23 11:11:14,790 - django.request - ERROR - Internal Server Error: /chat
+2024-12-23 11:11:17,503 - ai.main - ERROR - Error in process_file: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py", line 120, in process_file
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-23 11:11:17,504 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-23 11:11:17,505 - django.request - ERROR - Internal Server Error: /chat
+2024-12-23 11:14:52,659 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:14:56,393 - ai.main - ERROR - Error in process_file: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py", line 120, in process_file
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-23 11:14:56,395 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-23 11:14:56,397 - django.request - ERROR - Internal Server Error: /chat
+2024-12-23 11:14:59,648 - ai.main - ERROR - Error in process_file: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py", line 120, in process_file
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-23 11:14:59,648 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-23 11:14:59,650 - django.request - ERROR - Internal Server Error: /chat
+2024-12-23 11:17:53,678 - django.request - WARNING - Not Found: /
+2024-12-23 11:17:55,325 - django.request - WARNING - Not Found: /
+2024-12-23 11:18:04,136 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:18:12,998 - django.request - ERROR - Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 14, in index
+    return render(request, 'AI/index.html')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_knowledgebase' not found. 'upload_knowledgebase' is not a valid view function or pattern name.
+2024-12-23 11:18:14,249 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-23 11:18:42,563 - django.request - WARNING - Not Found: /logs/
+2024-12-23 11:19:24,602 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-23 11:19:28,593 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-23 11:19:31,786 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-23 11:19:34,584 - django.security.csrf - WARNING - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /chat
+2024-12-23 11:19:52,343 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:19:52,980 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:22:00,918 - django.utils.autoreload - INFO - /Users/tejas/Documents/Work/Ongoing projects/new /Iffort/Iffort/settings.py changed, reloading.
+2024-12-23 11:22:17,002 - django.request - WARNING - Not Found: /
+2024-12-23 11:22:24,485 - django.request - WARNING - Not Found: /chat/
+2024-12-23 11:22:37,389 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:22:41,755 - ai.main - ERROR - Error in process_file: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/main.py", line 120, in process_file
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /env/lib/python3.12/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ChatOpenAI
+model
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-23 11:22:41,763 - ai.views - ERROR - Error in chat_with_doc_route: 'str' object has no attribute 'invoke'
+Traceback (most recent call last):
+  File "/Users/tejas/Documents/Work/Ongoing projects/new /Iffort/ai/views.py", line 216, in chat_with_doc_route
+    response = conversational_rag_chain.invoke(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'invoke'
+2024-12-23 11:22:41,767 - django.request - ERROR - Internal Server Error: /chat
+2024-12-23 11:24:07,866 - django.request - WARNING - Not Found: /capture-session/
+2024-12-23 11:26:23,356 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-23 11:26:26,136 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-23 11:26:29,399 - django.request - WARNING - Not Found: /accounts/login/
+2024-12-23 11:26:33,045 - django.request - WARNING - Not Found: /accounts/login/
